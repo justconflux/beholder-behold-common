@@ -1,0 +1,23 @@
+{
+  "name": "beholder/behold-common",
+  "type": "library",
+  "description": "Common classes for working with IRC channel stats data from beholder/behold",
+  "keywords": ["irc"],
+  "license": "GPL-3.0-only",
+  "authors": [
+    {
+      "name": "nj",
+      "email": "nj@justconflux.net",
+      "homepage": "https://justconflux.net",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=8.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Beholder\\Modules\\Behold\\Stats\\": "src"
+    }
+  }
+}
