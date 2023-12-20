@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Modules\Behold\Stats;
+namespace Beholder\Modules\Behold\Common;
 
 enum StatType : int
 {
